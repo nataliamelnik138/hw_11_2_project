@@ -3,7 +3,8 @@ def converts_to_uppercase(value):
     :param value: исходная строка
     :return: строка, в которой все буквы в верхнем регистре
     """
-    return value.upper()
+    new_sring = value.upper()
+    return new_sring
 
 
 def capitalizes_first_letter(value):
@@ -12,4 +13,5 @@ def capitalizes_first_letter(value):
     :param value: исходная строка
     :return: строка, в которой каждое слово начинается с заглавной буквы
     """
-    return value.title()
+    new_sring = value.title()
+    return new_srin
